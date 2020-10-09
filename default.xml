@@ -21,4 +21,8 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <remote name="TWRP" fetch="https://github.com/TeamWin"/>
+  <remove-project name="bootable/recovery"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" revision="android-10.0" />
 </manifest>
